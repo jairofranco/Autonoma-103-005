@@ -1,0 +1,39 @@
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: rgba(248, 250, 245, 0.932);
+}
+#bloque_1{
+    background: greenyellow;
+    width: 100%;
+}
+#bloque_31, #bloque_32, #bloque_33{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline_block;
+    border: whitesmoke 2px solid;
+    background:grey;
+    float: left;
+}
+#bloque_21{
+    font-size: 20pt;
+    Color:rgb(44, 43, 43);
+    width: 40%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: greenyellow solid 2px;
+    float: left;
+}
+#bloque_22{
+    width: 60%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: greenyellow solid 2px;
+    float: left;
+}
+#bloque_41, #bloque_42{
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: whitesmoke solid 3px;
+    float: right;
+}
