@@ -5,18 +5,32 @@ body{
 #bloque_1{
     background: greenyellow;
     width: 100%;
+    position: relative;
+}
+#bloque_2{
+    background: rgb(15, 171, 192);
+}
+#bloque_3{
+    background: rgb(192, 15, 133);
 }
 .estirar{
     width: 100%;
     height: 1%;
 }
-.bloque_11{
-color: aliceblue;
-position: absolute;
-}
 .bloque_11 img{
 width: 30px;
 height:auto;
+}
+.bloque_12 img{
+    width: 60px;
+    height:auto;
+    }
+.bloque_11, .bloque_12, .bloque_13{
+    width: 33%;
+    box-sizing: border-box;
+    display: inline_block;
+    border: rgb(226, 13, 13) 2px solid;
+    float: left;
 }
 .letrero{
     font-size: 40pt;
@@ -30,12 +44,16 @@ height:auto;
     width: 30%;
 }
 #bloque_31, #bloque_32, #bloque_33{
-    width: 33%;
+    width: 30%;
     box-sizing: border-box;
     display: inline_block;
-    border: whitesmoke 2px solid;
+    border: rgb(23, 8, 110) 2px solid;
     background:grey;
     float: left;
+}
+#bloque_31 img, #bloque_32 img, #bloque_33 img {
+    width: 30px;
+    height: auto;
 }
 #bloque_21{
     font-size: 20pt;
@@ -57,6 +75,6 @@ height:auto;
     width: 50%;
     box-sizing: border-box;
     display: inline-block;
-    border: whitesmoke solid 3px;
-    float: right;
+    border: rgb(121, 60, 3) solid 3px;
+    float: left;
 }
