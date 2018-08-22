@@ -2,25 +2,23 @@ body{
     font-family: 'Muli', sans-serif;
     background-color: rgba(248, 250, 245, 0.932);
 }
+a{
+    color:white;
+    font-size: 14pt;
+}
 #bloque_1{
-    background: greenyellow;
-    width: 100%;
+    background: black;
     position: relative;
+    color:whitesmoke;
 }
-#bloque_2{
-    background: rgb(15, 171, 192);
-}
-#bloque_3{
-    background: rgb(192, 15, 133);
-}
-.estirar{
+#bloque_1a{
     width: 100%;
-    height: 1%;
+    background: rgba(0, 0, 0, 0.637);
+    position: fixed;
+    border:rgb(5, 5, 5) 1px solid;
+    
 }
-.bloque_11 img{
-width: 30px;
-height:auto;
-}
+
 .bloque_12 img{
     width: 60px;
     height:auto;
@@ -29,7 +27,6 @@ height:auto;
     width: 33%;
     box-sizing: border-box;
     display: inline_block;
-    border: rgb(226, 13, 13) 2px solid;
     float: left;
 }
 .letrero{
@@ -43,38 +40,70 @@ height:auto;
     margin-right: auto;
     width: 30%;
 }
-#bloque_31, #bloque_32, #bloque_33{
-    width: 30%;
-    box-sizing: border-box;
-    display: inline_block;
-    border: rgb(23, 8, 110) 2px solid;
-    background:grey;
-    float: left;
-}
-#bloque_31 img, #bloque_32 img, #bloque_33 img {
-    width: 30px;
-    height: auto;
+  
+#bloque_2{
+    background: radial-gradient(rgb(46, 45, 45), black);
+    color:white;
+    width: 100%;
+    float:left;
 }
 #bloque_21{
     font-size: 20pt;
-    Color:rgb(44, 43, 43);
+    Color:whitesmoke;
     width: 40%;
     box-sizing: border-box;
-    display: inline-block;
-    border: greenyellow solid 2px;
-    float: left;
+    /*display: inline-block;*/   
+    float:left;
 }
 #bloque_22{
     width: 60%;
     box-sizing: border-box;
-    display: inline-block;
-    border: greenyellow solid 2px;
+    /*display: inline-block;*/
+    float:left;
+}
+#bloque_3{
+    background: radial-gradient(white, grey);
+    width: 100%;
+    float:left
+}
+#bloque_31, #bloque_32, #bloque_33{
+    padding: 20px;
+    width: 33%;
+    box-sizing: border-box;
     float: left;
+    /*display: inline-block;*/
+    text-align: center;
+}
+#bloque_31 img, #bloque_32 img, #bloque_33 img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: auto;
+}
+.estirar{
+    width: 100%;
+    height: auto;
+}
+#bloque_4{
+    border: grey 1px solid;
+    width:100%;
+    background:white;
+    float:left;
+
 }
 #bloque_41, #bloque_42{
+    font-size: 20pt;
     width: 50%;
     box-sizing: border-box;
-    display: inline-block;
-    border: rgb(121, 60, 3) solid 3px;
+    /*display: inline-block;*/
     float: left;
+}
+#bloque_5{
+    width: 100%; 
+    float:left;
+    text-align: center;   
+}
+#bloque_5 img{
+    width: 30px;
+    height:auto;
 }
